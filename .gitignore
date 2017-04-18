@@ -1,0 +1,27 @@
+*.class
+*.log
+.envrc
+
+# mac specific
+.DS_Store
+
+# k8 specific
+stringer_build/
+
+# sbt specific
+.cache
+.history
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+native/
+
+# Scala-IDE specific
+.idea/
+
+.scala_dependencies
+.worksheet
