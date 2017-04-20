@@ -1,4 +1,4 @@
-package api
+package $package$.api
 
 import io.circe.Json
 import io.circe.syntax._
@@ -9,8 +9,8 @@ import Scalaz._
 import scalaz.concurrent.Task
 import io.circe.parser._
 import scala.util.Try
-import utils._
-import repository._
+import $package$.utils._
+import $package$.repository._
 
 import scala.concurrent.ExecutionContext
 

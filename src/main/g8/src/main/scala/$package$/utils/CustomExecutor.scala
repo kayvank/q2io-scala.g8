@@ -1,4 +1,4 @@
-package utils
+package $package$.utils
 
 import java.util.concurrent.Executors
 

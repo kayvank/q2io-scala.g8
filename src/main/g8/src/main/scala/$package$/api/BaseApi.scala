@@ -1,4 +1,4 @@
-package api
+package $package$.api
 
 import java.util.NoSuchElementException
 import javax.security.sasl.AuthenticationException

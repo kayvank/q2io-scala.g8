@@ -1,10 +1,10 @@
-package repository
+package $package$.repository
 
 import doobie.imports._
 import scalaz._
 import Scalaz._
 import scalaz.concurrent.Task
-import utils.Global._
+import $package$.utils.Global._
 import doobie.hikari.hikaritransactor._
 
 object Ds {

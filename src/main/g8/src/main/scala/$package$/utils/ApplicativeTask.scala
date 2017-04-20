@@ -1,4 +1,4 @@
-package utils
+package $package$.utils
 
 import scalaz.concurrent.Task
 import scalaz.{Applicative, Nondeterminism}
